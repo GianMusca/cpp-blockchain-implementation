@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MVC related">
+      <UniqueIdentifier>{b7bff58a-ab60-4d96-a2d9-eef5ab7976bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Node handlers">
+      <UniqueIdentifier>{fa38b241-0edb-40a8-884f-fac28b63dbf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui handlers">
+      <UniqueIdentifier>{1092f088-f056-4db7-85e1-61899b1b151f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui handlers">
+      <UniqueIdentifier>{00d9e4d5-c99b-42de-959d-ee6231ac1c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Node Handlers">
+      <UniqueIdentifier>{a6f2c5ad-a12c-4874-9e49-5da1429ee757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_MAINS">
+      <UniqueIdentifier>{d7e65169-6290-4907-8b7d-f1647386ea73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_NODES">
+      <UniqueIdentifier>{7f06f51e-2fc8-4eec-a846-e7961dfb80f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_MAINS">
+      <UniqueIdentifier>{2e3bc4c8-de0b-40ed-bba8-ccefdbd6f120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_NODES">
+      <UniqueIdentifier>{48a1a873-baa7-4af3-ba89-59d640458023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LIBS %28ImGui, Json, etc%29">
+      <UniqueIdentifier>{3e3057dd-05bd-41c9-b352-61ab77721539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LIBS %28ImGui, Json, etc%29">
+      <UniqueIdentifier>{86584b97-0b66-4758-ac7e-37a0ddd4033a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bitcoins">
+      <UniqueIdentifier>{7db2fd29-85bf-4c2d-aec8-d8f68fd5a676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bitcoins">
+      <UniqueIdentifier>{9df6882b-f68a-43e0-8022-17f4b8b87988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Node Handlers\layout">
+      <UniqueIdentifier>{86b88498-4175-41db-adc7-89c543364fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Node Handlers\server-client">
+      <UniqueIdentifier>{ea08f8e7-b21b-4d20-8931-ab46a6d0a005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Node Handlers\crypto">
+      <UniqueIdentifier>{d1f4f2e0-8ade-4d04-8269-0787e8a80f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Node Handlers\nodeData">
+      <UniqueIdentifier>{b0ce87f9-4d21-4e44-86d3-0fe72642640f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Node handlers\layout">
+      <UniqueIdentifier>{7d215afd-defa-4098-9bc2-7bfc1afc5e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Node handlers\crypto">
+      <UniqueIdentifier>{7c23d913-98b4-4707-be50-b38b4c483581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Node handlers\server-client">
+      <UniqueIdentifier>{0e6b7201-3f1d-4ede-a622-bef1afea7ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Node handlers\nodeData">
+      <UniqueIdentifier>{0acbf330-9f28-40e5-aebd-9838dbc2c5a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="observer.h">
+      <Filter>Header Files\MVC related</Filter>
+    </ClInclude>
+    <ClInclude Include="subject.h">
+      <Filter>Header Files\MVC related</Filter>
+    </ClInclude>
+    <ClInclude Include="manifestHandler.h">
+      <Filter>Header Files\Node handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="errorType.h">
+      <Filter>Header Files\Node handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="WarningWindow.h">
+      <Filter>Header Files\Gui handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="WarningWindowHandler.h">
+      <Filter>Header Files\Gui handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FULLNode.h">
+      <Filter>Header Files\_NODES</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\_NODES</Filter>
+    </ClInclude>
+    <ClInclude Include="SPVNode.h">
+      <Filter>Header Files\_NODES</Filter>
+    </ClInclude>
+    <ClInclude Include="EDAcoinsNet.h">
+      <Filter>Header Files\_MAINS</Filter>
+    </ClInclude>
+    <ClInclude Include="FULLviewer.h">
+      <Filter>Header Files\_NODES</Filter>
+    </ClInclude>
+    <ClInclude Include="FULLcontroller.h">
+      <Filter>Header Files\_NODES</Filter>
+    </ClInclude>
+    <ClInclude Include="SPVcontroller.h">
+      <Filter>Header Files\_NODES</Filter>
+    </ClInclude>
+    <ClInclude Include="SPVviewer.h">
+      <Filter>Header Files\_NODES</Filter>
+    </ClInclude>
+    <ClInclude Include="NETcontroller.h">
+      <Filter>Header Files\_MAINS</Filter>
+    </ClInclude>
+    <ClInclude Include="NETviewer.h">
+      <Filter>Header Files\_MAINS</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Header Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig_allegro5.h">
+      <Filter>Header Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Header Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_allegro5.h">
+      <Filter>Header Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Header Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Header Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Header Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Header Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiHandler.h">
+      <Filter>Header Files\Gui handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>Header Files\Bitcoins</Filter>
+    </ClInclude>
+    <ClInclude Include="blockChain.h">
+      <Filter>Header Files\Bitcoins</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeWindow.h">
+      <Filter>Header Files\Gui handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeWindowHandler.h">
+      <Filter>Header Files\Gui handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="printTXroutine.h">
+      <Filter>Header Files\Gui handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonHandler.h">
+      <Filter>Header Files\Node handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_stdlib.h">
+      <Filter>Header Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="layoutWindowHandler.h">
+      <Filter>Header Files\Gui handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="MINERNode.h">
+      <Filter>Header Files\_NODES</Filter>
+    </ClInclude>
+    <ClInclude Include="utxo.h">
+      <Filter>Header Files\Bitcoins</Filter>
+    </ClInclude>
+    <ClInclude Include="utxoHandler.h">
+      <Filter>Header Files\Node handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="layout.h">
+      <Filter>Header Files\Node handlers\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="layoutGeneratorHandler.h">
+      <Filter>Header Files\Node handlers\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="layoutNumericConection.h">
+      <Filter>Header Files\Node handlers\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoFunctions.h">
+      <Filter>Header Files\Node handlers\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoHandler.h">
+      <Filter>Header Files\Node handlers\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>Header Files\Node handlers\server-client</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Header Files\Node handlers\server-client</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Header Files\Node handlers\nodeData</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeData.h">
+      <Filter>Header Files\Node handlers\nodeData</Filter>
+    </ClInclude>
+    <ClInclude Include="typeEnums.h">
+      <Filter>Header Files\Node handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="drawTXHandler.h">
+      <Filter>Header Files\Gui handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="NODEviewer.h">
+      <Filter>Header Files\_NODES</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EDA-TPF3-G3.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WarningWindow.cpp">
+      <Filter>Source Files\Gui handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="WarningWindowHandler.cpp">
+      <Filter>Source Files\Gui handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="manifestHandler.cpp">
+      <Filter>Source Files\Node Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="EDAcoinsNet.cpp">
+      <Filter>Source Files\_MAINS</Filter>
+    </ClCompile>
+    <ClCompile Include="FULLNode.cpp">
+      <Filter>Source Files\_NODES</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files\_NODES</Filter>
+    </ClCompile>
+    <ClCompile Include="SPVNode.cpp">
+      <Filter>Source Files\_NODES</Filter>
+    </ClCompile>
+    <ClCompile Include="FULLcontroller.cpp">
+      <Filter>Source Files\_NODES</Filter>
+    </ClCompile>
+    <ClCompile Include="FULLviewer.cpp">
+      <Filter>Source Files\_NODES</Filter>
+    </ClCompile>
+    <ClCompile Include="SPVcontroller.cpp">
+      <Filter>Source Files\_NODES</Filter>
+    </ClCompile>
+    <ClCompile Include="SPVviewer.cpp">
+      <Filter>Source Files\_NODES</Filter>
+    </ClCompile>
+    <ClCompile Include="NETcontroller.cpp">
+      <Filter>Source Files\_MAINS</Filter>
+    </ClCompile>
+    <ClCompile Include="NETviewer.cpp">
+      <Filter>Source Files\_MAINS</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Source Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Source Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Source Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_allegro5.cpp">
+      <Filter>Source Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Source Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiHandler.cpp">
+      <Filter>Source Files\Gui handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files\Bitcoins</Filter>
+    </ClCompile>
+    <ClCompile Include="jasonHandler.cpp">
+      <Filter>Source Files\Node Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_stdlib.cpp">
+      <Filter>Source Files\LIBS %28ImGui, Json, etc%29</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeWindow.cpp">
+      <Filter>Source Files\Gui handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeWindowHandler.cpp">
+      <Filter>Source Files\Gui handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="printTXroutine.cpp">
+      <Filter>Source Files\Gui handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="layoutWindowHandler.cpp">
+      <Filter>Source Files\Gui handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="MINERNode.cpp">
+      <Filter>Source Files\_NODES</Filter>
+    </ClCompile>
+    <ClCompile Include="utxoHandler.cpp">
+      <Filter>Source Files\Node Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="layout.cpp">
+      <Filter>Source Files\Node Handlers\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="layoutGeneratorHandler.cpp">
+      <Filter>Source Files\Node Handlers\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="layoutNumericConection.cpp">
+      <Filter>Source Files\Node Handlers\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>Source Files\Node Handlers\server-client</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>Source Files\Node Handlers\server-client</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoHandler.cpp">
+      <Filter>Source Files\Node Handlers\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoFunctions.cpp">
+      <Filter>Source Files\Node Handlers\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeData.cpp">
+      <Filter>Source Files\Node Handlers\nodeData</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Source Files\Node Handlers\nodeData</Filter>
+    </ClCompile>
+    <ClCompile Include="drawTXHandler.cpp">
+      <Filter>Source Files\Gui handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="NODEviewer.cpp">
+      <Filter>Source Files\_NODES</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

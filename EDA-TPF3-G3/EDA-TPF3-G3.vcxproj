@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="block.h" />
+    <ClInclude Include="blockChain.h" />
+    <ClInclude Include="client.h" />
+    <ClInclude Include="cryptoFunctions.h" />
+    <ClInclude Include="cryptoHandler.h" />
+    <ClInclude Include="jsonHandler.h" />
+    <ClInclude Include="imgui_stdlib.h" />
+    <ClInclude Include="layout.h" />
+    <ClInclude Include="EDAcoinsNet.h" />
+    <ClInclude Include="errorType.h" />
+    <ClInclude Include="FULLcontroller.h" />
+    <ClInclude Include="FULLNode.h" />
+    <ClInclude Include="FULLviewer.h" />
+    <ClInclude Include="imconfig.h" />
+    <ClInclude Include="imconfig_allegro5.h" />
+    <ClInclude Include="imgui.h" />
+    <ClInclude Include="ImGuiHandler.h" />
+    <ClInclude Include="imgui_impl_allegro5.h" />
+    <ClInclude Include="imgui_internal.h" />
+    <ClInclude Include="imstb_rectpack.h" />
+    <ClInclude Include="imstb_textedit.h" />
+    <ClInclude Include="imstb_truetype.h" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="layoutGeneratorHandler.h" />
+    <ClInclude Include="layoutNumericConection.h" />
+    <ClInclude Include="layoutWindowHandler.h" />
+    <ClInclude Include="manifestHandler.h" />
+    <ClInclude Include="MINERNode.h" />
+    <ClInclude Include="NETcontroller.h" />
+    <ClInclude Include="NETviewer.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="drawTXHandler.h" />
+    <ClInclude Include="NodeData.h" />
+    <ClInclude Include="NODEviewer.h" />
+    <ClInclude Include="observer.h" />
+    <ClInclude Include="printTXroutine.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="server.h" />
+    <ClInclude Include="Socket.h" />
+    <ClInclude Include="SPVcontroller.h" />
+    <ClInclude Include="SPVNode.h" />
+    <ClInclude Include="SPVviewer.h" />
+    <ClInclude Include="subject.h" />
+    <ClInclude Include="TreeWindow.h" />
+    <ClInclude Include="TreeWindowHandler.h" />
+    <ClInclude Include="typeEnums.h" />
+    <ClInclude Include="utxo.h" />
+    <ClInclude Include="utxoHandler.h" />
+    <ClInclude Include="WarningWindow.h" />
+    <ClInclude Include="WarningWindowHandler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EDA-TPF3-G3.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="client.cpp" />
+    <ClCompile Include="cryptoFunctions.cpp" />
+    <ClCompile Include="cryptoHandler.cpp" />
+    <ClCompile Include="EDAcoinsNet.cpp" />
+    <ClCompile Include="FULLcontroller.cpp" />
+    <ClCompile Include="FULLNode.cpp" />
+    <ClCompile Include="FULLviewer.cpp" />
+    <ClCompile Include="imgui.cpp" />
+    <ClCompile Include="ImGuiHandler.cpp" />
+    <ClCompile Include="imgui_demo.cpp" />
+    <ClCompile Include="imgui_draw.cpp" />
+    <ClCompile Include="imgui_impl_allegro5.cpp" />
+    <ClCompile Include="imgui_stdlib.cpp" />
+    <ClCompile Include="imgui_widgets.cpp" />
+    <ClCompile Include="jasonHandler.cpp" />
+    <ClCompile Include="layout.cpp" />
+    <ClCompile Include="layoutGeneratorHandler.cpp" />
+    <ClCompile Include="layoutNumericConection.cpp" />
+    <ClCompile Include="layoutWindowHandler.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="manifestHandler.cpp" />
+    <ClCompile Include="MINERNode.cpp" />
+    <ClCompile Include="NETcontroller.cpp" />
+    <ClCompile Include="NETviewer.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="drawTXHandler.cpp" />
+    <ClCompile Include="NodeData.cpp" />
+    <ClCompile Include="NODEviewer.cpp" />
+    <ClCompile Include="printTXroutine.cpp" />
+    <ClCompile Include="server.cpp" />
+    <ClCompile Include="Socket.cpp" />
+    <ClCompile Include="SPVcontroller.cpp" />
+    <ClCompile Include="SPVNode.cpp" />
+    <ClCompile Include="SPVviewer.cpp" />
+    <ClCompile Include="TreeWindow.cpp" />
+    <ClCompile Include="TreeWindowHandler.cpp" />
+    <ClCompile Include="utxoHandler.cpp" />
+    <ClCompile Include="WarningWindow.cpp" />
+    <ClCompile Include="WarningWindowHandler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{6709D6A3-9349-40DE-A045-1BC9BFDC57CD}</ProjectGuid>
+    <RootNamespace>EDATPF3G3</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+    <LibraryPath>C:\Users\odevi\Source\Repos\AlexStephan\EDA-TPF3-G3\EDA-TPF3-G3\Crypto;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\odevi\vcpkg-master\installed\x86-windows\lib;C:\boost_1_71_0;C:\local\boost_1_71_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\Users\odevi\vcpkg-master\installed\x86-windows\lib;C:\boost_1_71_0\stage\lib;C:\biblios\boost_1_71_0\stage\lib;C:\local\boost_1_71_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;cryptlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <PreventDllBinding>true</PreventDllBinding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Ale\source\repos\EDA-TP-FINAL-FINAL-V3-FINAL-V2.02-FINALFINAL\EDA-TPF3-G3\Crypto;C:\Users\Ale\source\repos\EDA-TPF4-G3-XD\EDA-TPF3-G3\Crypto;C:\Users\Gianfranco\source\repos\EDA-TPF3-G3\EDA-TPF3-G3\Crypto;C:\boost_1_71_0;C:\Users\Gianfranco\source\repos\curl\builds\libcurl-vc-x64-release-dll-ipv6-sspi-winssl\include;D:\boost_1_71_0;C:\local\boost_1_71_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\Users\Gianfranco\source\repos\EDA-TPF3-G3\EDA-TPF3-G3\Crypto;C:\boost_1_71_0\stage\lib;C:\Users\Gianfranco\source\repos\curl\builds\libcurl-vc-x64-release-dll-ipv6-sspi-winssl\lib;D:\boost_1_71_0\lib64-msvc-14.2;C:\local\boost_1_71_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;libcurl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\local\boost_1_71_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\local\boost_1_71_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\local\boost_1_71_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\local\boost_1_71_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\AllegroDeps.1.10.0.0\build\native\AllegroDeps.targets" Condition="Exists('..\packages\AllegroDeps.1.10.0.0\build\native\AllegroDeps.targets')" />
+    <Import Project="..\packages\Allegro.5.2.5.2\build\native\Allegro.targets" Condition="Exists('..\packages\Allegro.5.2.5.2\build\native\Allegro.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\AllegroDeps.1.10.0.0\build\native\AllegroDeps.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\AllegroDeps.1.10.0.0\build\native\AllegroDeps.targets'))" />
+    <Error Condition="!Exists('..\packages\Allegro.5.2.5.2\build\native\Allegro.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Allegro.5.2.5.2\build\native\Allegro.targets'))" />
+  </Target>
+</Project>
